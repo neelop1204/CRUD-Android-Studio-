@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <!-- Title for Login Page -->
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:textColor="#212121" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/loginEmailInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#212121"
+        android:elevation="2dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/loginPasswordInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#212121"
+        android:elevation="2dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/initiateLoginProcessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <!-- Navigate to Registration Link -->
+    <TextView
+        android:id="@+id/navigateToRegistrationScreenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Register Here"
+        android:textColor="#007BFF"
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
